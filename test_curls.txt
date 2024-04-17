@@ -1,0 +1,7 @@
+run from host
+
+add book:
+curl --header "Content-Type: application/json" --request POST --data '{"title":"book", "author":"john"}' http://172.22.0.3:5000/books/add
+
+get books:
+curl http://172.22.0.3:5000/books
