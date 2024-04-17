@@ -5,7 +5,7 @@ import time
 
 app = Flask(__name__)
 
-time.sleep(3)
+time.sleep(5)
 
 cnx = mysql.connector.connect(user='root', password='admin',
                               host='mysqldb',
